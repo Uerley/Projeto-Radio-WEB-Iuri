@@ -1,0 +1,106 @@
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="..//css/radioDesopila.css">
+    <style>
+        .card_img {
+            width: 287px;
+            height: 200px;
+            overflow: hidden;
+            margin: 25px;
+        }
+
+        .small_img {
+            height: 100%;
+            cursor: pointer;
+            transition: all linear 0.5s;
+        }
+
+        .small_img:hover {
+            filter: grayscale(900%);
+            /*Mudar o tom para preto*/
+            transform: scale(1.6);
+        }
+
+        .row {
+            display: flex;
+            justify-content: left;
+            flex-wrap: wrap;
+            position: relative;
+            /*ir com a pagina*/
+            /*display:inline-block*/
+
+        }
+
+
+        .row p {
+            position: absolute;
+            height: 22px;
+            background-color: black;
+            color: white;
+            width: 22%;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="menu-principal">
+        <main>
+            <div class="logo">
+                <img src="../img/radio.png" />
+            </div>
+            <div class="As mais pedidas">
+                <table>
+                    <tr>
+                        <th>No Ar</th>
+                        <th>Plalist fique em casa</th>
+                        <th>Das 10 as 12</th>
+                    </tr>
+                </table>
+            </div>
+        </main>
+    </header>
+    <main class="col-100 menu-urls">
+        <div class="header-2">
+            <div class="menu">
+                <ul>
+                    <li><a href="../HTML/index.html">Home</a></li>
+                    <li><a href="../HTML/Programa+ºao.html">Programação</a></li>
+                    <li><a href="../HTML/Videos.html">Videos</a></li>
+                    <li><a href="../HTML/Equipe.html">Equipe</a></li>
+                    <li><a href="../HTML/Noticias.html">Noticias</a></li>
+                    <li><a href="../HTML/GaleriaDeFotos.html">Galeria de fotos</a></li>
+                </ul>
+            </div>
+    </main>
+    <section>
+        <div class="NomeTexto">
+            <h1>Equipe</h1>
+        </div>
+        <div class="row">
+
+            <div class="card_img">
+                <img src="../img/3.jpg" class="small_img">
+                <p>Alessandro Lucas</p>
+            </div>
+            <div class="card_img">
+                <img src="../img/Horizonte.jpg" class="small_img">
+                <p>João Gomes</p>
+            </div>
+            <div class="card_img">
+                <img src="../img/Horizonte.jpg" class="small_img">
+                <p>Luana Karla</p>
+            </div>
+            <div class="card_img">
+                <img src="../img/3.jpg" class="small_img">
+                <p>Alessandro Lucas</p>
+            </div>
+        </div>
+
+
+    </section>
+</body>
+
+</html>
