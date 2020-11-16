@@ -1,0 +1,250 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="../css/radioDesopila.css">
+    <style>
+        section ul li a {
+            display: block;
+            position: relative;
+            padding: 10px;
+            margin: 0 auto;
+            float: left;
+        }
+
+        section ul li {
+            list-style: none;
+        }
+
+        ul li a {
+            text-decoration: none;
+        }
+
+        .redes img {
+            border-radius: 20px;
+        }
+
+
+        .redes ul li {
+            display: inline-block;
+        }
+
+        .card_img {
+            width: 220px;
+            height: 120px;
+            overflow: hidden;
+            margin: 25px;
+        }
+
+        .small_img {
+            height: 100%;
+            cursor: pointer;
+            transition: all linear 0.5s;
+        }
+
+        .small_img:hover {
+            /*ficar pequeno*/
+            transform: scale(1.1);
+        }
+
+        .row {
+            display: flex;
+            /* justify-content: ce; */
+            flex-wrap: wrap;
+            /*ir com a pagina*/
+        }
+
+        #modal_img {
+            width: 90vh;
+            transform: scale(0);
+            transition: all linear 0.3s;
+
+        }
+
+        .modal_active #modal_img {
+            transform: scale(1);
+        }
+
+        .modal {
+            width: 100vw;
+            height: 100vh;
+            background-color: rgba(0, 0, 0, .7);
+            position: fixed;
+            visibility: hidden;
+            z-index: 1;
+            /*para não aparecer em cima da imgame maior*/
+            opacity: 0;
+            transition: visibility 0.8s linear, opacity 0.5s linear;
+        }
+
+        .modal_content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+
+        }
+
+        #btn_close {
+            color: #fff;
+            background-color: black;
+            position: absolute;
+            top: 40px;
+            right: 90px;
+            padding: 5px 10px;
+            font-size: 25px;
+            border: solid 1px #fff;
+            transition: all ease-out 0.4s;
+            cursor: pointer;
+        }
+
+        #btn_close:hover {
+            background-color: brown;
+        }
+
+        .modal_active {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .row p {
+            margin: 1;
+        }
+
+
+        .Album {
+            /* float: right; */
+            /* display: block; */
+            position: absolute;
+            /* margin-left: 100px; */
+            left: 1030px;
+        }
+
+        .Album h2 {
+            background-color: black;
+            color: white;
+            text-align: center;
+
+        }
+
+        .Album ul li {
+            list-style: none;
+        }
+
+        .Album ul li a p {
+            overflow: hidden;
+            float: right;
+            padding: 5px;
+            color: gray;
+        }
+
+        .Album ul li a p:hover {
+            text-decoration: underline;
+        }
+
+        .Album img {
+            width: 50px;
+            height: 50px;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="modal">
+        <div class="modal_content">
+            <img src="../img/Horizonte.jpg" id="modal_img">
+        </div>
+        <span id="btn_close">&times;</span>
+    </div>
+    <header class="menu-principal">
+        <main>
+            <div class="logo">
+                <img src="../img/radio.png" />
+            </div>
+            <div class="As mais pedidas">
+                <table>
+                    <tr>
+                        <th>No Ar</th>
+                        <th>Plalist fique em casa</th>
+                        <th>Das 10 as 12</th>
+                    </tr>
+                </table>
+            </div>
+        </main>
+    </header>
+    <main class="col-100 menu-urls">
+        <div class="header-2">
+            <div class="menu">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Programação</a></li>
+                    <li><a href="">Videos</a></li>
+                    <li><a href="">Equipe</a></li>
+                    <li><a href="">Noticias</a></li>
+                    <li><a href="">Galeria de fotos</a></li>
+                </ul>
+            </div>
+    </main>
+
+    <div class="NomeTexto">
+        <h1>Semana da Mulher</h1>
+    </div>
+    <!-- <section> -->
+
+    <article>
+        <div class="redes">
+            <ul>
+
+                <li><a href=""><img src="../img/zapinha.png" width="40px" alt=""></a></li>
+                <li> <a href=""><img src="../img/Twitinha.png" width="40px" alt=""></a></li>
+                <li><a href=""><img src="../img/Facenhinho.png" width="40px" alt=""></a></li>
+            </ul>
+        </div>
+
+        <div class="container">
+
+            <div class="row">
+                <div class="card_img">
+                    <img src="../img/Horizonte.jpg" class="small_img">
+                </div>
+                <div class="card_img">
+                    <img src="../img/2.jpg" class="small_img">
+                </div>
+                <div class="card_img">
+                    <img src="../img/2.jpg" class="small_img">
+                </div>
+                <div class="card_img">
+                    <img src="../img/2.jpg" class="small_img">
+                </div>
+                <div class="card_img">
+                    <img src="../img/2.jpg" class="small_img">
+                </div>
+                <div class="card_img">
+                    <img src="../img/2.jpg" class="small_img">
+                </div>
+                <div class="card_img">
+                    <img src="../img/2.jpg" class="small_img">
+                </div>
+                <div class="card_img">
+                    <img src="../img/2.jpg" class="small_img">
+                </div>
+                <div class="Album">
+                    <h2>Outras Galerias</h2>
+                    <ul>
+                        <li><a href="../HTML/GaleriaDeFotos.html">
+                                <img src="../img/2.jpg" width="70px" alt="">
+                                <p>Formatura de Licetiatura</p>
+                            </a></li>
+                        <li><a href="../HTML/GaleriaDeFotos.html">
+                                <img src="../img/2.jpg" width="70px" alt="">
+                                <p>Exportec IFRN/CA 2019 </p>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+
+    </article>
+    <script src="../js/galeria.js"></script>
+</body>
+
+</html>
