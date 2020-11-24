@@ -1,0 +1,187 @@
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="..//css/radioDesopila.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <style>
+        ul li a {
+            text-decoration: none;
+        }
+
+
+
+        .card_img {
+            width: 253px;
+            height: 142px;
+            overflow: hidden;
+            margin: 25px;
+            /* position: relative; */
+            /* olhar ai isso */
+        }
+
+        .card_img:hover .capa {
+            display: block;
+        }
+
+        .capa {
+
+            width: 2%;
+            height: 2%;
+            cursor: auto;
+            animation: play 1s ease-out;
+            /* display: block; */
+            justify-content: left;
+            flex-wrap: wrap;
+            position: relative;
+            /* overflow: hidden; */
+            top: -115;
+            left: 80;
+            display: none;
+            cursor: pointer;
+        }
+
+
+
+        @keyframes play {
+            0% {
+                transform: translateY(-105px);
+
+            }
+
+            25% {
+                transform: translateY(-130px);
+            }
+
+            50% {
+                transform: translateY(0px);
+            }
+
+            100% {
+                transform: translateY(0px);
+            }
+        }
+
+        .small_img {
+            height: 100%;
+            cursor: pointer;
+            transition: all linear 0.5s;
+
+        }
+
+        .small_img:hover {
+            /* filter: grayscale(900%); */
+
+            transform: scale(1.6);
+            position: relative;
+        }
+
+        .row {
+            display: flex;
+            justify-content: left;
+            flex-wrap: wrap;
+            position: relative;
+
+            /* display: none; */
+            /*ir com a pagina*/
+            /*display:inline-block*/
+
+        }
+
+        .row p {
+            color: gray;
+            position: absolute;
+            text-align: center;
+            margin-left: 70px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="menu-principal">
+        <main>
+            <div class="logo">
+                <img src="../img/radio.png" />
+            </div>
+            <div class="As mais pedidas">
+                <table>
+                    <tr>
+                        <th>No Ar</th>
+                        <th>Plalist fique em casa</th>
+                        <th>Das 10 as 12</th>
+                    </tr>
+                </table>
+            </div>
+        </main>
+    </header>
+    <main class="col-100 menu-urls">
+        <div class="header-2">
+            <div class="menu">
+                <ul>
+                    <li><a href="../HTML/index.html">Home</a></li>
+                    <li><a href="../HTML/Programa+ºao.html">Programação</a></li>
+                    <li><a href="../HTML/Videos.html">Videos</a></li>
+                    <li><a href="../HTML/Equipe.html">Equipe</a></li>
+                    <li><a href="../HTML/Noticias.html">Noticias</a></li>
+                    <li><a href="../HTML/GaleriaDeFotos.html">Galeria de fotos</a></li>
+                </ul>
+            </div>
+    </main>
+    <section>
+        <div class="NomeTexto">
+            <h1>Videos</h1>
+        </div>
+        <div class="row">
+            <div class="card_img">
+                <a href="https://radioescolarifrn.com/videos" target="_blank">
+                    <img src="../img/3.jpg" alt="" class="small_img">
+                    <p>Reunião Familiar</p>
+                    <div class="capa ">
+                        <img src="../img/Play.png" alt="" width="90px">
+                    </div>
+                </a>
+            </div>
+            <div class="card_img">
+                <a href="https://radioescolarifrn.com/videos" target="_blank">
+                    <img src="../img/3.jpg" alt="" class="small_img">
+                    <p>Reunião Familiar</p>
+                    <div class="capa ">
+                        <img src="../img/Play.png" alt="" width="90px">
+                    </div>
+                </a>
+            </div>
+            <div class="card_img">
+                <a href="https://radioescolarifrn.com/videos" target="_blank">
+                    <img src="../img/3.jpg" alt="" class="small_img">
+                    <p>Reunião Familiar</p>
+                    <div class="capa ">
+                        <img src="../img/Play.png" alt="" width="90px">
+                    </div>
+                </a>
+            </div>
+            <div class="card_img">
+                <a href="https://radioescolarifrn.com/videos" target="_blank">
+                    <img src="../img/3.jpg" alt="" class="small_img">
+                    <p>Reunião Familiar</p>
+                    <div class="capa ">
+                        <img src="../img/Play.png" alt="" width="90px">
+                    </div>
+                </a>
+            </div>
+            <div class="card_img">
+                <a href="https://radioescolarifrn.com/videos" target="_blank">
+                    <img src="../img/3.jpg" alt="" class="small_img">
+                    <p>Reunião Familiar</p>
+                    <div class="capa ">
+                        <img src="../img/Play.png" alt="" width="90px">
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+</body>
+
+</html>
