@@ -1,0 +1,116 @@
+/* Login */
+
+/* Tudo */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+body{
+    background-image: url("../img/backgroundlogin.jpg");
+    background-size: cover;
+}
+
+#login-container input:focus{
+    outline: none;
+}
+#login-container a,label{
+    font-size: .8rem;/*16 *.8=x Usuarios de dispositivos*/
+}
+/* conatiner login */
+#login-container{
+    background-color: white;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius:10px ;
+    text-align: center;
+}
+/* Formularios */
+#login-container form{
+    margin-top: 30px;
+    margin-bottom: 40px
+}
+#login-container label,input{
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+#login-container label{
+    font-weight: bold;
+}
+#login-container input{
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+#login-container input:focus{
+    border-bottom: 2px solid #5F9EA0;
+}
+#forgot-pass{
+    text-align: right;
+    display: block;
+}
+#login-container input[type="submit"]{
+    
+   
+    /* float: right; */
+    /* position: relative; */
+    /* background-position: left; */
+    /* left: 70%; */
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: #085588;
+    cursor: pointer;
+    width: 70px;
+}
+#login-container input[type="submit"]:hover{
+    background-color: #1a6f7e;
+    transition: .5s;
+}
+/* Redes Socias */
+#social-container,#social-container p{
+    margin-bottom: 20px;
+}
+#social-container i{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    color: #FFF;
+    margin: 0 5px;
+    cursor: pointer;
+}
+#register-container p{
+    margin-bottom: 10px;
+}
+#register-container {
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: #085588;
+    cursor: pointer;
+}
+#register-container a{
+    color: white;
+    text-decoration: none;
+    background-position: center;
+    position: relative;
+    top: 25%;
+}
