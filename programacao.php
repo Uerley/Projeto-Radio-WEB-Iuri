@@ -16,8 +16,6 @@ include("mensagem.php");
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="sortcut icon" href="RadioLogo.ico" type="image/x-icon" />
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="tab-navs.js"></script>
-   <script src="load.js"></script>
 </head>
 
 <body>
@@ -369,7 +367,7 @@ include("mensagem.php");
     </footer>
     
     <script src="play.js"></script>
-   
+    <script src="tab-navs.js"></script>
     <script src="footer-input.js"></script>
     <script src="scrolltop.js"></script>
     <script src="sistema-de-play.js"></script>
