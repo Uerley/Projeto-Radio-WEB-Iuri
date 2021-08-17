@@ -9,9 +9,7 @@ if(isset($_POST['email'])) {
 		header("location: pagadm.php");
 	}
 	else {
-        function phpAlert($msg) {
-            echo '<script type="text/javascript">alert("'. $msg .'")</script>';
-        }
+       	   echo "<script>alert('Você não é o Administrador, por favor saia');</script>";
 	}
 }
 ?>
@@ -67,8 +65,6 @@ if(isset($_POST['email'])) {
         <div id="registrarcontainer">
             <a href="#">Criar sua Conta</a>
         </div>
-
-        <?php phpAlert("Você não é o Administrador, por favor saia.");  ?>
     </div>
 </body>
 
