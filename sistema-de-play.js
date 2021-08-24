@@ -33,7 +33,7 @@ playBtn.addEventListener('click', () => {
 
 });
 
- mutebtn.addEventListener("click",mute);
+mutebtn.addEventListener("click",mute);
 function mute() {
             if(audio.muted){
                 musicContainer.classList.remove('mutebtn');
