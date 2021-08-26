@@ -87,7 +87,7 @@ include("mensagem.php");
             <a href="https://www.youtube.com/channel/UCEoxxtXdjrVTmIl-op0kT0w" title="Conheça meu canal"
                 class="fa fa-youtube" target="_blank"></a>
         </div>
-        <form action="?" method="POST">
+        <form action="index.php" method="POST">
             <h3 class="title">Contato nós</h3>
             <div class="input-container ">
                 <input type="text" name="name" class="input">
