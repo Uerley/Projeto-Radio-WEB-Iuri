@@ -52,7 +52,7 @@ if(isset($_POST['email'])) {
 <body>
     <div id="login-container">
         <img src="user-icon.png" width="20px" alt="">
-        <form action="pagadm.php" method="POST">
+        <form action="login.php" method="POST">
             <label for="email">Email</label>
             <input type="email" name="email" id="email" placeholder="Email" autocomplete="off">
             <label for="password">Senha</label>
