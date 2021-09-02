@@ -6,7 +6,7 @@ if(isset($_POST['email'])) {
 		where log_email = '$email' and log_senha = '$senha'");
 	$resultado = $consulta->fetch_assoc();
 	if($resultado) {
-		header("location: pagadm.php");
+		header("location: http://batna.ifrn.edu.br/pagadm.php");
 	}
 	else {
        	   echo "<script>alert('Você não é o Administrador, por favor saia');</script>";
@@ -52,7 +52,7 @@ if(isset($_POST['email'])) {
 <body>
     <div id="login-container">
         <img src="user-icon.png" width="20px" alt="">
-        <form action="login.php" method="POST">
+        <form action="?" method="POST">
             <label for="email">Email</label>
             <input type="email" name="email" id="email" placeholder="Email" autocomplete="off">
             <label for="password">Senha</label>
